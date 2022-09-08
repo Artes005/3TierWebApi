@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3TierWebApi", "3TierWebApi.csproj", "{BEB95297-22BF-4B0D-88B7-9531C71B2244}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "..\Data\Data.csproj", "{B8BE3E4A-4650-4FFC-B2AA-81DF51F5D7CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "..\Business\Business.csproj", "{16061206-FE1F-4B96-A991-19B73B7933EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEB95297-22BF-4B0D-88B7-9531C71B2244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB95297-22BF-4B0D-88B7-9531C71B2244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB95297-22BF-4B0D-88B7-9531C71B2244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB95297-22BF-4B0D-88B7-9531C71B2244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8BE3E4A-4650-4FFC-B2AA-81DF51F5D7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8BE3E4A-4650-4FFC-B2AA-81DF51F5D7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8BE3E4A-4650-4FFC-B2AA-81DF51F5D7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8BE3E4A-4650-4FFC-B2AA-81DF51F5D7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16061206-FE1F-4B96-A991-19B73B7933EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16061206-FE1F-4B96-A991-19B73B7933EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16061206-FE1F-4B96-A991-19B73B7933EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16061206-FE1F-4B96-A991-19B73B7933EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0A25DB4-73C9-423E-BA2C-3B2FD3A5EFC6}
+	EndGlobalSection
+EndGlobal
